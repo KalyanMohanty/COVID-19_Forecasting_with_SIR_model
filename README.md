@@ -1,4 +1,4 @@
-# Forecasting_with_SIR_mode
+# COVID-19 Forecasting_with_SIR_mode
 Kaggle Competition Link:
 https://www.kaggle.com/kalyanmohanty/forecasting-with-sir-model
 
