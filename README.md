@@ -15,11 +15,13 @@ Some details about how the disease is spread are still being determined. The WHO
 
 The objective of this work is to analyze susceptible, Infectious, and recovered using the SIR model.
 
-# Total Population		
+# Total Population
+
 The highly populated country has more chances to get infected quickly. The following are top populated countries across the globe.
  <p align="center">
   <img width="460" height="300" src=Images/popu.JPG>
 </p>
+
 # The number of the day goes out
 
 There are different age groups people who go outside on different days. So here we have analyzed which age group has most days outside the home. The more they go outside can have more chances to infected by the COVID-19 virus. 
@@ -57,7 +59,7 @@ Where C is the number of confirmed cases
 # SIR Model
 A SIR model is an epidemiological model that computes the theoretical number of people infected with a contagious illness in a closed population over time. The name of this class of models derives from the fact that they involve coupled equations relating the number of susceptible people S (t), number of people infected I (t), and number of people who have recovered R (t). One of the simplest SIR models is the Kermack - McKendrick model
 <p align="center">
-  <img width="460" height="300" src=Images/5cacd542832adc4f625fae17_SIR-Analysis-illustration.png.png>
+  <img width="460" height="300" src=Images/5cacd542832adc4f625fae17_SIR-Analysis-illustration.png>
 </p>
 
 # Non-dimensional SIR model
