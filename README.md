@@ -34,7 +34,8 @@ The people of age group 26 – 65 go outside approximately 5 or 6 days a week. S
 # Grouping by growth factor
 The number of confirmed cases is increasing in many countries, but there are two countries. In a first-type country, the growth factor is larger than 1 and the number of cases is rapidly increasing. In a second-type country, the growth factor is less than 1.
 Calculate the growth factor
-Growth Factor =  (ΔC_n )/(ΔC_(n-1) )
+
+                                       Growth Factor =  (ΔC_n )/(ΔC_(n-1) )
 Where C is the number of confirmed cases
 	Out breaking: growth factor >> 1 for the last 7 days
 	Stopping: growth factor << 1 for the last 7 days
@@ -65,17 +66,21 @@ A SIR model is an epidemiological model that computes the theoretical number of 
 # Non-dimensional SIR model
 
 To simplify the model, we will remove the units of the variables from ODE (Ordinary Differential Equation).
-Set (S, I, R) = N × (x, y, z) and (T, β, γ) = (τt, τ -1ρ, τ −1σ)
-dx/dt = -ρxy                                                                                                   (1)
-dy/dt = -ρxy- σy                                                                                               (2)
-dz/dt = σy                                                                                                     (3)
+
+                                       Set (S, I, R) = N × (x, y, z) and (T, β, γ) = (τt, τ -1ρ, τ −1σ)
+                                       dx/dt = -ρxy                                                  (1)
+                                       dy/dt = -ρxy- σy                                              (2)
+                                       dz/dt = σy                                                    (3)
+				       
 Where N is the total population and τ is a coefficient ([min], is an integer to simplify).
 The range of variables and parameters:
 
                                         0 ≤ (x, y, z, ρ, σ ) ≤ 1
                                         1 ≤ τ ≤ 1440
 Basic reproduction number, Non-dimensional parameter, is defined as
+
                                         R0 = ρσ−1 = βγ−1
+					
 Estimated Mean Values of R0:
 R0 means "the average number of secondary infections caused by an infected host" When 
 
