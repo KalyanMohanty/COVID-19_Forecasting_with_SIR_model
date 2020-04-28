@@ -85,7 +85,7 @@ Basic reproduction number, Non-dimensional parameter, is defined as
 Estimated Mean Values of R0:
 R0 means "the average number of secondary infections caused by an infected host" When 
 
-X=1/R_0 =dy/dt =0                                                                                              (4)
+                                        X=1/R_0 =dy/dt =0                                            (4)
 <p align="center">
   <img width="460" height="300" src=Images/sir.JPG>
 </p>
